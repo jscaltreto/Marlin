@@ -923,6 +923,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
 
+
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 1
 
