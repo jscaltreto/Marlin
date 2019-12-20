@@ -2141,16 +2141,8 @@
 
   #if EITHER(SENSORLESS_HOMING, SENSORLESS_PROBING)
     // TMC2209: 0...255. TMC2130: -64...63
-<<<<<<< 910c1d2c57ab387354f5bf0564252f956e9d8daa
-<<<<<<< 64ebec50dc9dda0615a81d555e78bdf5194f0f78
     #define X_STALL_SENSITIVITY  8
     #define X2_STALL_SENSITIVITY X_STALL_SENSITIVITY
-=======
-    #define X_STALL_SENSITIVITY  10
->>>>>>> Initial Config
-=======
-    #define X_STALL_SENSITIVITY  8
->>>>>>> Updates
     #define Y_STALL_SENSITIVITY  8
     //#define Z_STALL_SENSITIVITY  8
     //#define SPI_ENDSTOPS              // TMC2130 only
